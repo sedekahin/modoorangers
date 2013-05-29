@@ -1,0 +1,107 @@
+/*  
+Theme Name: WP Bestseller
+Theme URI: http://fastestwp.com/
+Description: fastest wordpress <a href="http://fastestwp.com/">fast loading wordpress themes</a>.
+Version: 1.0
+Author: Patrick viera 
+Author URI: http://fastestwp.com/
+*/
+#wrap{width:930px;margin-right:auto;margin-left:auto;}
+body{background-image:url(images/bg.gif);background-repeat:repeat-x;margin:0px auto 0px;padding:0px;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:12px;color:#333333;width:940px;background-color:#464646;}
+h1{color:#000000;font-size:22px;margin:0px;text-decoration:none;font-family:Arial, Helvetica, sans-serif, Verdana;font-weight:bold;text-transform:capitalize;padding-top:0px;padding-right:0px;padding-bottom:3px;}
+h1 a{color:#000000;	text-decoration: none;}
+h2{text-decoration:none;font-size:14px;margin:0px;font-weight:bold;}
+h3{text-decoration:none;font-size:14px;margin:0px;font-weight:normal;}
+h4{background-image:url(images/nav.gif);background-repeat:repeat-x;color:#CCCCCC;font-size:15px;text-decoration:none;font-family:Arial, Helvetica, sans-serif, Verdana;font-weight:bold;text-transform:capitalize;background-color:#666666;text-align:left;padding-top:3px;padding-bottom:3px;padding-left:5px;margin:0px;}
+a{text-decoration:none;color:#333333;}
+p{text-decoration:none;line-height:18px;}
+img{border:0;}
+p img{padding:0;max-width:100%;height:auto;}
+img.center{display:inline;margin:5px;padding:4px;border:1px solid #666666;}
+img.alignright{padding:4px;margin:5px;display:inline;border:1px solid #666666;}
+img.alignleft{padding:4px;margin:5px;display:inline;border:1px solid #666666;}
+.alignright{float:right;margin:4px;}
+.alignleft{float:left;margin:4px;}
+.aligncenter{clear:both;display:block;margin-left:auto;margin-right:auto;border:1px solid #666666;padding:4px;}
+#header{width:930px;height:70px;color:#CCCCCC;}
+#header-left{float:left;width:500px;text-align:left;background-image:url(images/logo.png);background-repeat:no-repeat;padding-left:65px;	height: 70px;}
+#header-right{float:right;text-align:left;width:330px;}
+#header a{color:#CCCCCC;}
+#header .logo{font-size:36px;font-family:Impact;font-weight:normal;float:left;text-transform:uppercase;text-align:left;width:500px;}
+#header .desc{font-size:12px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;text-transform:capitalize;text-align:left;color:#CCCCCC;}
+#search{display:inline;float:right;width:340px;height:31px;margin-bottom:10px;padding-top:10px;padding-bottom:5px;padding-left:5px;margin-top:5px;}
+#search-box{width:230px;height:25px;background-color:#F2F2F2;border:2px solid #999999;color:#000000;padding-top:1px;padding-right:5px;padding-bottom:0;padding-left:5px;}
+#search-button{width:80px;height:30px;position:absolute;background-color:#666666;color:#FFFFFF;margin-left:8px;font-weight:bold;cursor:pointer;border:2px solid #999999;font-size:16px;}
+#topnav{height:30px;padding-right:0;padding-bottom:2px;padding-left:0;width:930px;}
+#ddmenu{float:left;list-style:none;position:relative;line-height:22px;z-index:300;width:930px;padding-top:0px;padding-right:0px;padding-left:0;margin-top:0;margin-right:0;margin-bottom:0px;margin-left:0;text-transform:uppercase;}
+#ddmenu ul{margin:0;padding:0;list-style:none;position:absolute;line-height:20px;z-index:300;position:absolute;display:none;top:28px;left:-1px;background-color:#666666;border:1px solid #333333;}
+#ddmenu a{display:block;padding:3px 8px;color:#FFFFFF;text-decoration:none;}
+#ddmenu a:hover{color:#000;background-color:#CCCCCC;}
+#ddmenu li{float:left;position:relative;display:block;}
+#ddmenu ul a{}
+#ddmenu li ul{width:210px;}
+#ddmenu li ul a{width:195px;height:auto;float:left;}
+#ddmenu .page_item{}#ddmenu .page_item .page_item{font-size:11px;border:none;}
+#ddmenu .page_item li ul a{width:auto}
+#ddmenu ul ul{line-height:20px;top:auto;}
+#ddmenu ul li{}
+#ddmenu li ul ul{left:12em;margin:0px 0 0 10px;}
+#ddmenu li:hover ul ul, #ddmenu li:hover ul ul ul, #ddmenu li:hover ul ul ul ul{display:none;}
+#ddmenu li:hover ul, #ddmenu li li:hover ul, #ddmenu li li li:hover ul, #ddmenu li li li li:hover ul{display:block;}
+.top{float:left;display:inline;background-color:#333333;text-align:center;width:920px;border-top-width:1px;border-bottom-width:1px;border-top-style:solid;border-bottom-style:solid;border-top-color:#666666;border-bottom-color:#666666;padding:5px;height:250px;}
+.top h3{font-size:22px;color:#CCCCCC;text-align:center;font-family:Arial, Helvetica, sans-serif;}
+.bestseller{background-image:url(images/bg-post.gif);background-repeat:no-repeat;width:165px;height:200px;float:left;border:3px solid #666666;text-align:center;background-color:#FFFFFF;padding-top:2px;padding-right:1px;padding-bottom:2px;padding-left:1px;margin-top:9px;margin-right:5px;margin-bottom:9px;margin-left:5px;background-position:center bottom;}
+.picbestseller{width:155px;height:160px;float:left;text-align:center;background-color:#FFFFFF;padding-top:5px;padding-right:1px;padding-bottom:5px;padding-left:3px;}
+.picbestseller h2{font-weight:normal;text-transform:capitalize;font-size:12px;}
+.picbestseller img{height:120px;width:150px;}
+.pricebestseller{text-align:center;font-size:18px;color:#333333;margin-top:5px;margin-right:0px;margin-bottom:5px;margin-left:0;font-weight:bold;height:20px;}
+#breadchumb{float:none;font-size:11px;text-align:left;margin-bottom:0px;width:920px;padding-top:3px;padding-bottom:3px;padding-left:10px;color:#E1E1E1;background-color:#999999;border-bottom-width:1px;border-bottom-style:dotted;border-bottom-color:#999999;}
+#breadchumb a{text-decoration:none;padding-right:1px;margin-right:1px;color:#E1E1E1;}
+#bigcontent{width:910px;background-color:#E4E4E4;padding-right:10px;padding-left:10px;}
+#content{float:left;width:540px;background-color:#FFFFFF;margin-top:10px;padding:15px;margin-bottom:10px;}
+.post{background-image:url(images/bg-post.gif);background-repeat:no-repeat;margin-bottom:15px;text-align:justify;border:1px solid #CCCCCC;padding:10px;background-position:bottom;}
+.posttitle{text-align:left;}
+.posttitle h2{margin:0px;font-size:16px;margin-bottom:5px;color:#333333;font-weight:bold;font-family:Arial, Helvetica, sans-serif;}
+.posttitle h2 a{color:#333333;text-decoration:none;}
+.post blockquote{color:#333333;padding:5px;margin:10px;}
+#foot{width:930px;height:auto;text-align:center;font-size:11px;padding-top:3px;padding-bottom:3px;background-color:#333333;color:#999999;}
+#foot a{padding-right:5px;color:#999999;}
+#post-navigator{padding:0px;clear:both;height:auto;width:100%;display:block;margin-top:1em;margin-right:auto;margin-bottom:1em;margin-left:auto;font-size:10px;}
+.wp-pagenavi{width:100%;clear:both;padding-top:0.5em;padding-right:0px;padding-bottom:0.5em;padding-left:0px;height:auto;text-align:center;margin-top:0px;margin-right:auto;margin-bottom:0px;margin-left:auto;}
+.pages{color:#666666;padding-top:5px;padding-right:8px;padding-bottom:5px;padding-left:8px;width:auto;height:auto;margin-top:0px;margin-right:3px;margin-bottom:0px;margin-left:0px;border:1px solid #999999;}
+.current{color:#000000;width:auto;height:auto;margin:0px;padding-top:5px;padding-right:8px;padding-bottom:5px;padding-left:8px;border:1px solid #666666;background-color:#CCCCCC;}
+.wp-pagenavi a{color:#666666;text-decoration:none;height:auto;width:auto;margin:0px;padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px;display:inline;border:1px solid #999999;}
+.wp-pagenavi a:hover{border:1px solid #333333;}
+#post-navigator .alignleft a, #post-navigator .alignright a{color:#0033FF;margin:0px;height:auto;width:auto;padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px;text-decoration:underline;display:block;}
+#post-navigator .alignleft a:hover, #post-navigator .alignright a:hover{text-decoration:none;}
+#post-navigator-single{width:100%;font-size:11px;margin-top:1em;margin-right:auto;margin-bottom:1em;margin-left:auto;clear:both;padding:0%;font-weight:normal;color:#000000;height:auto;}
+#post-navigator-single .alignleft{margin:0px;padding:0px;float:left;width:45%;overflow:hidden;text-align:left;height:auto;}
+#post-navigator-single .alignright{margin:0px;padding:0px;float:right;width:45%;overflow:hidden;text-align:right;height:auto;}
+#post-navigator-single a:hover{text-decoration:none;}
+.tags{float:none;font-size:10px;text-align:left;margin:0px;padding:0px;color:#999999;}
+.tags a{color:#999999;}
+#sidebar{width:auto;height:100%;min-height:100%;font-size:12px;}
+#sidebarku{width:325px;float:right;}
+#sidebarright{height:100%;min-height:100%;float:right;width:322px;margin-right:5px;margin-top:10px;}
+#sidebar .box{margin-bottom:10px;background-color:#f3f3f3;border:1px solid #CCCCCC;padding:10px;}
+#sidebar .box h4, #sidebar h4{margin-top:0px;color:#CCCCCC;margin-bottom:0px;font-size:15px;font-weight:bold;padding-top:4px;padding-bottom:4px;text-align:left;padding-left:5px;background-image:url(images/nav.gif);background-repeat:repeat-x;text-transform:capitalize;}
+#sidebar a{color:#333333;}
+#sidebar ul{list-style-type:none;margin-top:0;margin-right:0;margin-bottom:5px;margin-left:0;padding-top:0;padding-right:0px;padding-bottom:0;padding-left:0px;}
+#sidebar ul li{border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#CCCCCC;padding-top:3px;padding-right:3px;padding-bottom:3px;padding-left:0px;margin-right:5px;margin-left:5px;}
+#sidebar ul li ul{list-style-type:square;margin-left:15px;padding:0;border:0;}
+#sidebar ul li ul li{border:0;}
+.compare{width:530px;height:90px;float:left;border:1px solid #CCCCCC;text-align:left;padding:3px;margin-top:2px;margin-bottom:2px;}
+.compare img{float:left;padding:4px;margin-right:10px;}
+.comparetitle{margin-top:3px;text-align:left;width:230px;margin-bottom:3px;height:35px;float:left;}
+.comparetitle a{color:#000000;font-weight:bold;}
+.comparetitle a:hover{text-decoration:underline;}
+.comparetitle h2{text-align:left;font-size:13px;padding-top:0px;text-decoration:none;}
+.compareprice{text-align:center;font-size:14px;padding-left:0px;color:#000000;text-decoration:none;height:70px;width:75px;float:left;font-weight:bold;padding-top:10px;padding-right:0px;padding-bottom:0px;}
+.comparelink{text-align:left;padding-left:0px;color:#666666;text-decoration:none;float:right;height:60px;width:120px;padding-top:20px;}
+.picthumb{width:200px;height:250px;float:left;border:1px solid #CCCCCC;text-align:center;padding:3px;margin-top:5px;margin-right:20px;margin-bottom:5px;margin-left:5px;}
+.picthumb img{}
+.picthumba{width:200px;height:250px;float:left;border:thin solid #666666;text-align:center;padding:3px;margin-top:5px;margin-right:20px;margin-bottom:5px;margin-left:5px;}
+.pictitle{text-align:center;font-size:12px;color:#000000;margin-top:5px;margin-right:0px;margin-left:0;}
+.entry{border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#CCCCCC;height:210px;float:left;padding-right:5px;padding-left:5px;width:140px;text-align:center;}
+.entry img{	height:120px;width:150px;border: 1px solid #CCCCCC;}
+.entryrate{text-align:center;font-size:12px;color:#000000;margin-top:0px;margin-right:0px;margin-bottom:8px;margin-left:0;font-weight:bold;height:20px;}

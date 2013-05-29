@@ -1,0 +1,65 @@
+<h1 style="text-align: center;"><strong><span style="color: red; font-size: 1.3em; text-decoration: blink;">Wait, Get Special Price Products {{ term | ucwords }} here</span></strong></h1>
+<h1 style="text-align: center;"><strong><span style="color: red; font-size: 1.3em; text-decoration: blink;"> ... This Promo Will Ended Soon...</span></strong></h1><br /><br />
+<img class="aligncenter" alt="" src="http://i1154.photobucket.com/albums/p536/azonpid/hands8.gif" width="125" height="70" /><br />
+<h1 align="center"><span style="text-decoration: underline;"><strong>Special Promo only for This Month</strong></span><br /><img src="http://2.bp.blogspot.com/-Xjib9i7ZguM/UNfkGdHMy_I/AAAAAAAAAF0/gvGSkwBPu5E/s1600/ArrowDownBlueGloss.gif" alt="Go"/></h1>
+<iframe frameborder="1" src="http://mandiricollections138.com/read/{{ term | ucwords }}.html" scrolling="yes" height="1500" width="100%"></iframe><br />
+{% api %}{% image %}{% video %}
+<article class="post-1 post type-post status-publish format-standard hentry category-uncategorized">
+	<div class="post-format-single standard"></div>
+
+	<div class="entry-wrap">
+		<header class="entry-header">
+			<a href="#" class="post-date"></a>
+			<h1 class="entry-title">{{ term | ucwords }}</h1>
+		</header><!--end .entry-header -->
+		
+		<div class="entry-content">
+			<p>
+				{% for index, item in api %}
+				{% if index < 2 %}
+					<p style="text-align: center;">{{item.title  | remove '...' | trim | strtolower | ucfirst }}, {{item.description | remove '...' | trim | strtolower | ucfirst }}.</p>
+				{% endif %}
+				{% endfor %}
+			</p>
+			<br />
+			{% if videos.0.link != '' %}
+			<p>			
+				<iframe class="youtube-player" type="text/html" width="500" height="315" src="http://www.youtube.com/embed/{{ videos.0.link | get_video_id }}" frameborder="0">
+				</iframe>	
+		
+			</p>
+			{% endif %}
+			<p>
+				{% for index, item in api %}
+				{% if index > 2 %}{% if index < 5 %}
+					<p style="text-align: center;">{{item.title  | remove '...' | trim | strtolower | ucfirst }}, {{item.description | remove '...' | trim | strtolower | ucfirst }}.</p>
+				{% endif %}{% endif %}
+				{% endfor %}
+			</p>
+	
+			<p>
+				{% for index, item in api %}
+				{% if index > 6 %}
+					<p style="text-align: center;">{{item.title  | remove '...' | trim | strtolower | ucfirst }}, {{item.description | remove '...' | trim | strtolower | ucfirst }}.</p>
+				{% endif %}
+				{% endfor %}
+			</p>
+			<br />
+			{% for index, item in images %}
+				{% if index < 6 %}
+				<p>
+				<p style="text-align: center;"><img src="{{ item.mediaurl }}" alt="{{ item.title }}"/>
+				</p>
+				<br>
+				<caption>{{ item.title | ucfirst }}</caption>
+				</p>
+				{% endif %}
+			{% endfor %}
+	  	</div><!-- end .entry-content -->
+
+	</div><!--end .entry-wrap-->
+	
+		<footer class="entry-meta singlepost">
+			
+		</footer><!-- end .entry-meta -->
+</article>
